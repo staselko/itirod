@@ -1,0 +1,9 @@
+.forum__home {
+  &-greet {
+    font-size: 36px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

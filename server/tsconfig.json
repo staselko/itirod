@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "strictNullChecks": false,
+      "target": "es6",
+      "strict": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "jsx": "react",
+      "allowJs": true,
+      "paths": {
+          "*": [
+              "node_modules/*",
+              "server/types/*"
+          ]
+      }
+  },
+  "lib": [
+    "esnext",
+    "dom"
+],
+
+"externals": {
+    "FileReader": "FileReader",
+  },
+
+  "include": [
+      "src/**/*", "index.ts",
+      "./index.ts"
+, "src/models"  ]
+}

@@ -1,0 +1,12 @@
+.forum__users-field {
+  width: 101%;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: center;
+  overflow-y: scroll;
+  height: 100vh;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

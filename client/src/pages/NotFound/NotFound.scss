@@ -1,0 +1,16 @@
+.forum__not-found {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1976d2;
+  &-error {
+    font-size: 88px;
+  }
+
+  &-error-sub {
+    font-size: 48px;
+  }
+}
