@@ -1,0 +1,19 @@
+.forum__hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  &-link-item {
+    color: #4e6da7;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    text-decoration: none;
+    text-align: left;
+    width: 200px;
+    &:hover {
+      background-color: rgba(218, 218, 218, 0.65);
+    }
+  }
+}

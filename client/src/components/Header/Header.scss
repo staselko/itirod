@@ -1,0 +1,27 @@
+.forum__header {
+  &-logo {
+    width: 70px;
+    height: 60px;
+    z-index: 1000;
+  }
+
+  &-link {
+    width: 10%;
+  }
+
+  &-link-item {
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 2%;
+  }
+
+  padding: 0 5%;
+  height: 70px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #81c2b7;
+}
